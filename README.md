@@ -23,7 +23,7 @@ To get started with this project, you'll need to clone the repository and instal
 
    ```bash
    git clone https://github.com/talhanuhuymaz/3DReactNativeExpo.git
-   cd react-three-fiber-shoe-viewer
+   cd 3DReactNativeExpo
    ```
 
 2. **Install the dependencies:**
