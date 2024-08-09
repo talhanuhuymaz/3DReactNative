@@ -2,7 +2,11 @@
 
 This project is a 3D shoe model viewer built with React Three Fiber. It uses the `@react-three/fiber` library to render a 3D model of a shoe, specifically an Air Max, allowing users to view it with a rotating animation. The model is loaded from an OBJ file, and a basic material is applied to give it color and shading.
 ## Video
-https://github.com/user-attachments/assets/85011bbf-e9c9-4b91-9571-ab2213b9ef1a
+
+
+
+https://github.com/user-attachments/assets/3d0af4ec-6426-40b8-87f8-15624c4d3ec5
+
 
 ## Features
 
