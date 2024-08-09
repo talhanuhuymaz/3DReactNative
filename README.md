@@ -22,7 +22,7 @@ To get started with this project, you'll need to clone the repository and instal
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/react-three-fiber-shoe-viewer.git
+   git clone https://github.com/talhanuhuymaz/3DReactNativeExpo.git
    cd react-three-fiber-shoe-viewer
    ```
 
