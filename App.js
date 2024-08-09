@@ -32,12 +32,12 @@ function Shoe() {
   obj.traverse((child) => {
     if (child instanceof THREE.Mesh) {
       child.material = new THREE.MeshStandardMaterial({
-        color: 'red', // Set the color of the material
-        metalness: 0.5, // Metalness factor (0 to 1)
-        roughness: 0.5 // Roughness factor (0 to 1)
+        color: 'red', 
+        metalness: 0.5, 
+        roughness: 0.5 
       });
-      child.castShadow = true; // Allow the object to cast shadows
-      child.receiveShadow = true; // Allow the object to receive shadows
+      child.castShadow = true;
+      child.receiveShadow = true; 
     }
   });
 
@@ -62,7 +62,6 @@ export default function App() {
       <Suspense fallback={<div>Loading...</div>}>
         <Shoe />
       </Suspense>
-      {/* Add a ground plane to catch shadows */}
       <mesh receiveShadow rotation-x={-Math.PI / 2} position={[0, -2, 0]}>
         <planeGeometry args={[100, 100]} />
         <shadowMaterial opacity={0.3} />
