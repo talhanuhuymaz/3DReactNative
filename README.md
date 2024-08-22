@@ -31,17 +31,6 @@ To get started with this project, you'll need to clone the repository and instal
    ```bash
    npm install
    ```
-
-3. **Start the development server:**
-
-   ```bash
-   npm start
-   ```
-
-4. **Access the application:**
-
-   Open your web browser and go to `http://localhost:3000` to view the application.
-
 ## Usage
 
 - **Rotate the model:** The shoe model rotates automatically. You can customize the rotation speed and axis in the `useFrame` hook.
